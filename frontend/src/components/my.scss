@@ -1,0 +1,25 @@
+
+  .event {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    display: flex;
+    // flex-direction: column;
+    gap: 1rem;
+    // grid-template-columns: 1fr 1fr;
+    width: max-content;
+
+    &.work {
+      background-color: rgb(255, 238, 0);
+
+    }
+
+    &.study {
+      background-color: rgb(0, 255, 166);
+
+    }
+
+    &.leisure {
+      background-color: rgb(0, 162, 255);
+
+    }
+  }

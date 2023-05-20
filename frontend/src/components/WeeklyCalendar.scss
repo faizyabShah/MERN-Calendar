@@ -1,0 +1,43 @@
+.weekly-calendar {
+    .calendar-grid {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .header {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      border-bottom: 1px solid #ccc;
+      background-color: #f2f2f2;
+  
+      .day {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        padding: 8px;
+      }
+    }
+  
+    .body {
+      display: grid;
+      grid-template-columns: 80px repeat(7, 1fr);
+  
+      .timeslot {
+        border-right: 1px solid #ccc;
+  
+        .hour {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          padding-right: 8px;
+        }
+      }
+  
+      .day {
+        border: 1px solid #ccc;
+        padding: 8px;
+      }
+    }
+  }
+  
